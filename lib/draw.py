@@ -5,7 +5,8 @@ from matplotlib.patches import Arc
 from random import random
 import numpy as np
 
-def pitch(bg_color = '#091442', line_color = '#3562A6', dpi = 144):
+#bg_color = '#091442', line_color = '#3562A6'
+def pitch(bg_color = '#FFFFFF', line_color = '#000000', dpi = 144):
     # Background cleanup
     plt.rcParams['figure.figsize'] = (10.5,6.8)
     plt.rcParams['figure.dpi'] = dpi
